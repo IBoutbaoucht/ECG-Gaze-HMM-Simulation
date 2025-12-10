@@ -18,3 +18,12 @@ $$O_t = \mu_L + \delta_{signal}(t) + \epsilon$$
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
+
+2. Run the reproduction script:
+   ```bash
+    python main_reproduction.py
+
+Requirements :
+
+    Python 3.8+
+    hmmlearn for Baum-Welch inference
